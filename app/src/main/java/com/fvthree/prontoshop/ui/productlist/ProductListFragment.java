@@ -1,4 +1,4 @@
-package com.fvthree.prontoshop.ui.customerlist;
+package com.fvthree.prontoshop.ui.productlist;
 
 
 import android.os.Bundle;
@@ -12,11 +12,11 @@ import com.fvthree.prontoshop.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CustomerListFragment extends Fragment {
+public class ProductListFragment extends Fragment {
 
     private View mRootView;
 
-    public CustomerListFragment() {
+    public ProductListFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +25,7 @@ public class CustomerListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        mRootView = inflater.inflate(R.layout.fragment_customer_list, container, false);
+        mRootView = inflater.inflate(R.layout.fragment_product, container, false);
 
         return mRootView;
     }
